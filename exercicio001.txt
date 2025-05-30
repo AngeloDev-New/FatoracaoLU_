@@ -1,0 +1,39 @@
+
+Foi inicialmente entregue uma matriz A de ordem 4
+sendo ela: 
+Linha 1:	 8		 4		 5		 2
+Linha 2:	 1		 4		 6		 5
+Linha 3:	 7		 5		 5		 22
+Linha 4:	 2		 48		 5		 5
+ 
+e a matriz B:
+Linha 1:	 5
+Linha 2:	 2
+Linha 3:	 6
+Linha 4:	 2
+
+Tendo como saida a matriz L
+Linha 1:	 1		 0		 0		 0
+Linha 2:	 0.12		 1		 0		 0
+Linha 3:	 0.88		 0.43		 1		 0
+Linha 4:	 0.25		 13.43		 40.77		 1
+
+E a matriz U
+Linha 1:	 8		 4		 5		 2
+Linha 2:	 0		 3.50		 5.38		 4.75
+Linha 3:	 0		 0		-1.68		 18.21
+Linha 4:	 0		 0		 0		-801.81
+
+Resultando no Y:
+Linha 1:	 5
+Linha 2:	 1.38
+Linha 3:	 1.04
+Linha 4:	-59.94
+
+e finalmente X:
+Linha 1:	 0.49
+Linha 2:	 0.01
+Linha 3:	 0.19
+Linha 4:	 0.07
+
+
