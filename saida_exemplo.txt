@@ -1,0 +1,33 @@
+
+Foi inicialmente entregue uma matriz A de ordem 3
+sendo ela: 
+Linha 1:	 1		 2		 4
+Linha 2:	 5		 1		 2
+Linha 3:	 6		 2		 5
+ 
+e a matriz B:
+Linha 1:	 5
+Linha 2:	 4
+Linha 3:	 5
+
+Tendo como saida a matriz L
+Linha 1:	 1		 0		 0
+Linha 2:	 5		 1		 0
+Linha 3:	 6		 1.11		 1
+
+E a matriz U
+Linha 1:	 1		 2		 4
+Linha 2:	 0		-9		-18
+Linha 3:	 0		 0		 1
+
+Resultando no Y:
+Linha 1:	 5
+Linha 2:	-21
+Linha 3:	-1.67
+
+e finalmente X:
+Linha 1:	 0.33
+Linha 2:	 5.67
+Linha 3:	-1.67
+
+
