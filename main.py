@@ -93,7 +93,10 @@ def getXY(A, B, L, U):
         X = [0] * n
         for i in reversed(range(n)):
             soma = sum(U[i][j] * X[j] for j in range(i+1, n))
-            X[i] = (Y[i] - soma) / U[i][i]
+            try:
+                X[i] = (Y[i] - soma) / U[i][i]
+            except:
+                X[i] = float('nan')
         return X
 
     Y = substituicao_progressiva(L, B)
